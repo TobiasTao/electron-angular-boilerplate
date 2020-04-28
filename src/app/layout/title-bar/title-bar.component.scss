@@ -1,0 +1,50 @@
+.title-bar {
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #aaa;
+  .window-appicon {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+  }
+  .window-menu {
+    height: 30px;
+    width: 400px;
+  }
+  .window-title {
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: calc(100vw - 350px);
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+  }
+  .window-controls {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .window-controls-item {
+      width: 50px;
+      height: 30px;
+      padding: 0 13px;
+      &:hover {
+        background-color: rgb(201, 201, 201);
+      }
+    }
+    .window-controls-item-close {
+      width: 50px;
+      height: 30px;
+      padding: 0 13px;
+      &:hover {
+        background-color: red;
+      }
+    }
+    .win-icon {
+      margin-top: 3px;
+    }
+  }
+}
