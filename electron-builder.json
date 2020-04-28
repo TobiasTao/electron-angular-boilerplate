@@ -1,6 +1,6 @@
 {
-  "appId": "angular-electron-template",
-  "productName": "angular-electron-template",
+  "appId": "angular-electron-boilerplate",
+  "productName": "angular-electron-boilerplate",
   "directories": {
     "output": "release/"
   },
@@ -22,7 +22,7 @@
   ],
   "win": {
     "icon": "dist\\assets\\images\\favicon.256x256.png",
-    "target": ["portable"]
+    "target": ["nsis"]
   },
   "nsis": {
     "artifactName": "${productName}-${version}-setup.${ext}"
