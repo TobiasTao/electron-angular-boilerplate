@@ -17,14 +17,15 @@ Currently runs with:
 
 # :sparkles: Features
 
-- [x] Run your app in a local development environment with Electron & Hot reload
+- Run your app in a local development environment with Electron & Hot reload
+- Run your app in a production environment
+- Package your app into an executable file for Linux, Windows & Mac with [electron-builder](https://www.electron.build/)
+- [Build&Release](doc/devlopment/release.md) your app with [Github Actions](https://help.github.com/en/actions)
+- Integrated devtron
+- [Debug](doc/devlopment/debug.md) renderer process with vscode
 
-- [x] Run your app in a production environment
-- [x] Package your app into an executable file for Linux, Windows & Mac
-- [x] Github Actions
-- [x] Integrated devtron
+#### Todo
 - [ ] Integrated augury
-- [x] Debug renderer process with vscode
 - [ ] Debug main precess with vscode
 
 > :warning: Hot reload only pertains to the renderer process. The main electron process is not able to be hot reloaded, only restarted.
@@ -33,13 +34,13 @@ Currently runs with:
 
 # :airplane: Getting Started
 
-Clone this repository locally :
+1. Clone this repository locally :
 
 ```bash
 git clone --depth=1 git@github.com:TobiasTao/electron-angular-boilerplate.git your-app-name
 ```
 
-Install dependencies with npm :
+2. Install dependencies with npm :
 
 ```bash
 npm install
@@ -47,9 +48,7 @@ npm install
 
 > :warning: There is an issue with `yarn` and `node_modules` when the application is built by the packager. Please use `npm` as dependencies manager.
 
-### To build for development
-
-**in a terminal window**
+3. Start app:
 
 ```bash
 npm start
