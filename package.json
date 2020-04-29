@@ -35,6 +35,13 @@
     "preinstall": "node scripts/preinstall.js"
   },
   "devDependencies": {
+    "@angular/animations": "^9.0.0",
+    "@angular/cdk": "^9.0.0",
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "@angular/flex-layout": "9.0.0-beta.29",
+    "@angular/forms": "^9.0.0",
+    "@angular/material": "^9.0.0",
     "@angular-builders/custom-webpack": "^9.0.0",
     "@angular-devkit/build-angular": "^0.901.2",
     "@angular-eslint/builder": "~0.0.1-alpha.18",
@@ -87,13 +94,5 @@
   "engines": {
     "node": ">=10.13.0"
   },
-  "dependencies": {
-    "@angular/animations": "^9.0.0",
-    "@angular/cdk": "^9.0.0",
-    "@angular/common": "^9.0.0",
-    "@angular/core": "^9.0.0",
-    "@angular/flex-layout": "9.0.0-beta.29",
-    "@angular/forms": "^9.0.0",
-    "@angular/material": "^9.0.0"
-  }
+  "dependencies": {}
 }
